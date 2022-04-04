@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Love React Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+
+    <!-- Doreen: Comment Reaction Buttons -->
+    <section>
+        <!-- Thumbs Up -->
+        <button class="thumbBtns" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+        <button class="thumbBtns" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+        <!-- Heart emoji -->
+        <div class="heart-btn">
+            <button>
+                <div class="loveBtn">
+                    <span class="heart"></span>
+                    <span class="numb"></span>
+                </div>
+            </button>
+        </div>
+    </section>
+
+</body>
+<script>
+    // Love button
+    $(document).ready(function () {
+        $(".loveBtn").click(function () {
+            $(".loveBtn").toggleClass("heart-active");
+            $(".text").toggleClass("heart-active");
+            $(".numb").toggleClass("heart-active");
+            $(".heart").toggleClass("heart-active");
+        });
+    });
+
+    // Thumbs up & down
+    var btn1 = document.querySelector("#green");
+    var btn2 = document.querySelector("#red");
+
+    btn1.addEventListener("click", function () {
+        if (btn2.classList.contains("red")) {
+            btn2.classList.remove("red");
+        }
+        this.classList.toggle("green");
+    });
+
+    btn2.addEventListener("click", function () {
+        if (btn1.classList.contains("green")) {
+            btn1.classList.remove("green");
+        }
+        this.classList.toggle("red");
+    });
+</script>
+<script src="https://use.fontawesome.com/fe459689b4.js"></script>
+
+
+
+</html>
