@@ -3,6 +3,7 @@
   overflow: hidden;
   background-color: black;
 }
+
 /* .jumbotron video {
     position: absolute;
     z-index: 1;
@@ -40,6 +41,7 @@
 /* --------- Reaction Emojis: Heart Button ---------*/
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:600&display=swap");
+
 .heart-btn {
   display: inline-block;
   position: relative;
@@ -51,6 +53,7 @@
   border-color: #000000;
   background: #efefef;
 }
+
 .heart {
   position: absolute;
   background: url("/images/reactionIcons/img.png") no-repeat;
@@ -72,22 +75,27 @@
   color: #000000;
   font-family: sans-serif;
 }
+
 .numb.heart-active:before {
   content: "13";
   font-weight: 600;
   color: rgb(0, 0, 0);
 }
+
 .text.heart-active {
   color: #000;
 }
+
 .heart.heart-active {
   animation: animate 0.8s steps(28) 1;
   background-position: right;
 }
+
 @keyframes animate {
   0% {
     background-position: left;
   }
+
   100% {
     background-position: right;
   }
@@ -111,28 +119,30 @@
 
 .red {
   color: red;
-=======
-  .previousPost { 
-      width: 500px; 
-      height: 300px; 
-      border: 1px solid #999999; 
-      padding: 5px; }
-
-/* -----GIPHY BUTTON----- */
-#btn {
-  background-color: orange;
-  height:45px;
-  min-width:90px;
-  border-radius: 10px;
-  color:aliceblue;
-  font-size: 30px;
-  font-family:"Cookie", cursive;
-  position:relative;
-  transition: 1s;
-  display: inline-block;
-  align-items: centre;
-  justify-content: centre;
-  cursor: pointer;
-  padding-bottom: 5px;
-  padding-left: 15px;
 }
+
+ .previousPost {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #999999;
+    padding: 5px;
+  }
+
+  /* -----GIPHY BUTTON----- */
+  #btn {
+    background-color: orange;
+    height: 45px;
+    min-width: 90px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Cookie", cursive;
+    position: relative;
+    transition: 1s;
+    display: inline-block;
+    align-items: centre;
+    justify-content: centre;
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-left: 15px;
+  }
