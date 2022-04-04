@@ -10,12 +10,6 @@ app.use(cors());
 app.use(express.json());
 
 
-// --------------- LISTEN TO SERVER --------------- //
-
-app.listen(process.env.PORT || port, () => {
-    console.log(`Example App on http://localhost:${port}`);
-});
-
 //---------------- GIPHY --------------------------//
 function sendApiRequest(){
     const userInput = document.getElementById("input").value
@@ -44,3 +38,8 @@ function sendApiRequest(){
 }
 
 
+// --------------- LISTEN TO SERVER --------------- //
+
+app.listen(process.env.PORT || port, () => {
+    console.log(`Example App on http://localhost:${port}`);
+});
