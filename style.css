@@ -43,10 +43,9 @@
 
 li {
   text-decoration: none;
-  color: white;
 }
 
-img {
+ul li a img {
   height: 35px;
   width: 35px;
 }
