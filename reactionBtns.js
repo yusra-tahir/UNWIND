@@ -9,8 +9,8 @@ $(document).ready(function () {
 });
 
 // Thumbs up & down
-var btn1 = document.querySelector("#green");
-var btn2 = document.querySelector("#red");
+const btn1 = document.querySelector("#green");
+const btn2 = document.querySelector("#red");
 
 btn1.addEventListener("click", function () {
   if (btn2.classList.contains("red")) {
