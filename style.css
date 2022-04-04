@@ -1,3 +1,98 @@
+/* NAVBAR STYLING */
+
+li {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a img {
+  height: 35px;
+  width: 35px;
+}
+
+.nav-item,
+.nav-item a {
+  padding: 5px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1545px;
+  font-weight: 300;
+}
+
+/* STORY STYLING */
+
+.story-gallery {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.story {
+  flex-basis: 7%;
+  padding-top: 13%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.story img {
+  position: absolute;
+  width: 40px;
+  height: 45px;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  border: 3px solid white;
+}
+
+.story p {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+.story1 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-1.jpeg);
+}
+
+.story2 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-2.jpeg);
+}
+
+.story3 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-3.jpeg);
+}
+
+.story4 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-4.jpeg);
+}
+
+.story5 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-5.jpeg);
+}
+
+.story.story1 img {
+  top: unset;
+  left: 50%;
+  bottom: 55px;
+  transform: translateX(-50%);
+  border: 1px white solid;
+  width: 35px;
+}
+
+/* POSTS */
+
 .jumbotron {
   position: relative;
   overflow: hidden;
@@ -121,28 +216,28 @@
   color: red;
 }
 
- .previousPost {
-    width: 500px;
-    height: 300px;
-    border: 1px solid #999999;
-    padding: 5px;
-  }
+.previousPost {
+  width: 500px;
+  height: 300px;
+  border: 1px solid #999999;
+  padding: 5px;
+}
 
-  /* -----GIPHY BUTTON----- */
-  #btn {
-    background-color: orange;
-    height: 45px;
-    min-width: 90px;
-    border-radius: 10px;
-    color: aliceblue;
-    font-size: 30px;
-    font-family: "Cookie", cursive;
-    position: relative;
-    transition: 1s;
-    display: inline-block;
-    align-items: centre;
-    justify-content: centre;
-    cursor: pointer;
-    padding-bottom: 5px;
-    padding-left: 15px;
-  }
+/* -----GIPHY BUTTON----- */
+#btn {
+  background-color: orange;
+  height: 45px;
+  min-width: 90px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 30px;
+  font-family: "Cookie", cursive;
+  position: relative;
+  transition: 1s;
+  display: inline-block;
+  align-items: centre;
+  justify-content: centre;
+  cursor: pointer;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
