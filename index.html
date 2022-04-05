@@ -9,7 +9,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title> UNWIND </title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--LINK FOR REACTION BUTTONS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!--NAME OF BLOG-->
+    <title>UNWIND</title>
 </head>
 
 <body>
@@ -95,6 +102,7 @@
     <br>
     <!--NAOMI SECTION ENDS HERE-->
 
+    
 
     <!--DOREEN SECTION STARTS HERE: what's on your mind text entry box-->
 
@@ -115,34 +123,345 @@
 
     <!--DOREEN SECTION ENDS HERE-->
 
+
     <!--KHARI SECTION STARTS HERE: previous story posts around 5/6, with images & comment section-->
 
     <div class="jumbotron jumbotron-fluid" style="background-color: #B85B14">
         <!-- <video autoplay muted loop poster="">    
-  
- </video>        -->
+        </video>        -->
+
+
         <div class="container p-5 text-center" style="background-color: #FC7307; color: bisque">
             <h2>PAST POSTS WITH COMMENTS</h2>
             <form>
                 <input style="background-color:#D4E4F7; color:#341C09" class="previousPost" type="submit"
                     value="Spread the love!">
             </form>
+       </video>        -->
+
+
+       <!-- POSTS BEGIN HERE -->
+       <div class="post-container">
+           <div class="user-profile">
+               <img src="images/post-1-img.jpeg">
+               <div>
+                   <p>User ID: 1</p>
+                   <span>Mar 29 2022, 14:55 pm </span>
+               </div>
+           </div>
+           <p class="post-text">I wonder if, in past times, the space on Earth currently being occupied by my kitchen was the sit of an epic life-or-death battle between two giant dinosaurs.</p>
+           <img src="images/dinosaur-meme.jpeg" style="align-content: center" class="post-img">
+           
+           <!--REACTION BUTTONS HERE-->
+           <section>
+                <!-- THUMBS UP & DOWN -->
+                <button class="thumbBtns" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+                <button class="thumbBtns" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+                <!-- HEART EMOJI -->
+                <div class="heart-btn">
+                    <button>
+                        <div class="loveBtn">
+                            <span class="heart"></span>
+                            <span class="numb"></span>
+                        </div>
+                    </button>
+                </div>
+            </section>
+           
+           <div class="form-container">
+                <form>
+                    <h5 style="color: #236AB9">Comments</h5>
+                    <div>
+                        <textarea name="comments" class="comments" rows="3">Share your thoughts here!</textarea>
+                    </div>
+                    <input type="submit" value="Post">
+                </form>
+            </div>
+       </div>
+
+        <br>
+
+        <!-- NEW POST : 2 -->
+        <div class="post-container">
+            <div class="user-profile">
+                <img src="images/post-2-img.jpeg">
+                <div>
+                    <p>User ID: 2</p>
+                    <span>Mar 29 2022, 11:11 am </span>
+                </div>
+            </div>
+            <p class="post-text">After years of disliking the way i look, only now i realize I'm not ugly, I'm just not my type.></p>
+            <img src="images/not-my-type-img.jpeg" style="align-content: center" class="post-img">
+
+            <!--REACTION BUTTONS HERE-->
+            <section>
+                <!-- THUMBS UP & DOWN -->
+                <button class="thumbBtns" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+                <button class="thumbBtns" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+                <!-- HEART EMOJI -->
+                <div class="heart-btn">
+                    <button>
+                        <div class="loveBtn">
+                            <span class="heart"></span>
+                            <span class="numb"></span>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <div class="form-container">
+                <form>
+                    <h5 style="color: #236AB9">Comments</h5>
+                    <div>
+                        <textarea name="comments" class="comments" rows="3">Share your thoughts here!</textarea>
+                    </div>
+                    <input type="submit" value="Post">
+                </form>
+            </div>
         </div>
 
         <br>
 
-        <div class="container p-5 text-center" style="background-color: #FC7307; color: bisque">
-            <h2>PAST POSTS WITH COMMENTS</h2>
-            <form>
-                <input style="background-color: #D4E4F7; color: #341C09" class="previousPost" type="submit"
-                    value="Spread the love!">
-            </form>
-        </div>
-    </div>
+        <!-- NEW POST : 3 -->
+        <div class="post-container">
+            <div class="user-profile">
+                <img src="images/post-3-img.jpeg">
+                <div>
+                    <p>User ID: 3</p>
+                    <span>Mar 28 2022, 9:45pm </span>
+                </div>
+            </div>
+            <p class="post-text">When people think about travelling to the past, they worry about accidentally changing the present, but no one in the present really thinks they can radically change the future. How does that even make sense?</p>
+            <img src="images/change-future-img.jpeg" style="align-content: center" class="post-img">
 
-    <!--KHARI SECTION ENDS HERE -->
+             <!--REACTION BUTTONS HERE-->
+             <section>
+                <!-- THUMBS UP & DOWN -->
+                <button class="thumbBtns" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+                <button class="thumbBtns" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+                <!-- HEART EMOJI -->
+                <div class="heart-btn">
+                    <button>
+                        <div class="loveBtn">
+                            <span class="heart"></span>
+                            <span class="numb"></span>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <div class="form-container">
+                <form>
+                    <h5 style="color: #236AB9">Comments</h5>
+                    <div>
+                        <textarea name="comments" class="comments" rows="3">Share your thoughts here!</textarea>
+                    </div>
+                    <input type="submit" value="Post">
+                </form>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- NEW POST : 4 -->
+        <div class="post-container">
+            <div class="user-profile">
+                <img src="images/post-4-img.png">
+                <div>
+                    <p>User ID: 4</p>
+                    <span>Mar 28 2022, 10:29 pm </span>
+                </div>
+            </div>
+            <p class="post-text">What if Earth is like one of those uncontacted tribes in South America, like the whole Galaxy knows we're here but they've agreed not to contact us until we figure it out for ourselves?</p>
+            <img src="images/alien-meme.jpeg" style="align-content: center" class="post-img">
+
+             <!--REACTION BUTTONS HERE-->
+             <section>
+                <!-- THUMBS UP & DOWN -->
+                <button class="thumbBtns" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+                <button class="thumbBtns" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+                <!-- HEART EMOJI -->
+                <div class="heart-btn">
+                    <button>
+                        <div class="loveBtn">
+                            <span class="heart"></span>
+                            <span class="numb"></span>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <div class="form-container">
+                <form>
+                    <h5 style="color: #236AB9">Comments</h5>
+                    <div>
+                        <textarea name="comments" class="comments" rows="3">Share your thoughts here!</textarea>
+                    </div>
+                    <input type="submit" value="Post">
+                </form>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- NEW POST : 5 -->
+        <div class="post-container">
+            <div class="user-profile">
+                <img src="images/post-5-img.png">
+                <div>
+                    <p>User ID: 5</p>
+                    <span>Mar 26 2022, 1:57 am </span>
+                </div>
+            </div>
+            <p class="post-text">Do you ever think that maybe plants are really farming us, giving us oxygen until we eventually expire and turn into mulch which they can consume?</p>
+            <img src="images/trees-img.jpeg" style="align-content: center" class="post-img">
+
+             <!--REACTION BUTTONS HERE-->
+             <section>
+                <!-- THUMBS UP & DOWN -->
+                <button class="thumbBtns" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+                <button class="thumbBtns" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+                <!-- HEART EMOJI -->
+                <div class="heart-btn">
+                    <button>
+                        <div class="loveBtn">
+                            <span class="heart"></span>
+                            <span class="numb"></span>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <div class="form-container">
+                <form>
+                    <h5 style="color: #236AB9">Comments</h5>
+                    <div>
+                        <textarea name="comments" class="comments" rows="3">Share your thoughts here!</textarea>
+                    </div>
+                    <input type="submit" value="Post">
+                </form>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- NEW POST : 6 -->
+        <div class="post-container">
+            <div class="user-profile">
+                <img src="images/post-6-img.png">
+                <div>
+                    <p>User ID: 6</p>
+                    <span>Mar 24 2022, 3:33 am </span>
+                </div>
+            </div>
+            <p class="post-text">There exists a set of finite actions that, if I performed them in the correct order, would make me a millionaire in a day. I just don't know what they are (yet)</p>
+            <img src="images/millionaire-img.jpeg" style="align-content: center" class="post-img">
+
+             <!--REACTION BUTTONS HERE-->
+             <section>
+                <!-- THUMBS UP & DOWN -->
+                <button class="thumbBtns" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+                <button class="thumbBtns" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+                <!-- HEART EMOJI -->
+                <div class="heart-btn">
+                    <button>
+                        <div class="loveBtn">
+                            <span class="heart"></span>
+                            <span class="numb"></span>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <div class="form-container">
+                <form>
+                    <h5 style="color: #236AB9">Comments</h5>
+                    <div>
+                        <textarea name="comments" class="comments" rows="3">Share your thoughts here!</textarea>
+                    </div>
+                    <input type="submit" value="Post">
+                </form>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- NEW POST : 7 -->
+        <div class="post-container">
+            <div class="user-profile">
+                <img src="images/post-7-img.png">
+                <div>
+                    <p>User ID: 7</p>
+                    <span>Mar 20 2022, 4:23 am </span>
+                </div>
+            </div>
+            <p class="post-text">You aren't actually afraid of being left alone in your house or in the forest, you're afraid that you AREN'T alone</p>
+            <img src="images/ghost-img.jpeg" style="align-content: center" class="post-img">
+
+             <!--REACTION BUTTONS HERE-->
+             <section>
+                <!-- THUMBS UP & DOWN -->
+                <button class="thumbBtns" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+                <button class="thumbBtns" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+                <!-- HEART EMOJI -->
+                <div class="heart-btn">
+                    <button>
+                        <div class="loveBtn">
+                            <span class="heart"></span>
+                            <span class="numb"></span>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <div class="form-container">
+                <form>
+                    <h5 style="color: #236AB9">Comments</h5>
+                    <div>
+                        <textarea name="comments" class="comments" rows="3">Share your thoughts here!</textarea>
+                    </div>
+                    <input type="submit" value="Post">
+                </form>
+            </div>
+        </div>
+
+        
+    </div> 
+
+<!-- KHARI SECTION ENDS HERE -->
+         
+<script>
+    /////// LOVE BUTTON ///////////
+    $(document).ready(function () {
+        $(".loveBtn").click(function () {
+            $(".loveBtn").toggleClass("heart-active");
+            $(".text").toggleClass("heart-active");
+            $(".numb").toggleClass("heart-active");
+            $(".heart").toggleClass("heart-active");
+        });
+    });
+
+    //////// THUMBS UP 7 THUMBS DOWN  ///////
+    var btn1 = document.querySelector("#green");
+    var btn2 = document.querySelector("#red");
+
+    btn1.addEventListener("click", function () {
+        if (btn2.classList.contains("red")) {
+            btn2.classList.remove("red");
+        }
+        this.classList.toggle("green");
+    });
+
+    btn2.addEventListener("click", function () {
+        if (btn1.classList.contains("green")) {
+            btn1.classList.remove("green");
+        }
+        this.classList.toggle("red");
+    });
+</script>
+<script src="https://use.fontawesome.com/fe459689b4.js"></script>     
 
 
 </body>
-
+ 
 </html>
